@@ -1,0 +1,12 @@
+{
+        "parent": "item/card",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+        "textures": {
+		"1": "item/spades/spade",
+		"2": "item/numbers/b7",
+		"3": "item/cardbase",
+		"4": "item/spades/s7",
+		"particle": "item/cardbase"
+	}
+}

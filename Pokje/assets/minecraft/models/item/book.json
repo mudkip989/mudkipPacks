@@ -1,0 +1,209 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 258
+      },
+      "model": "item/cardh2"
+    },{
+      "predicate": {
+        "custom_model_data": 259
+      },
+      "model": "item/cardh3"
+    },{
+      "predicate": {
+        "custom_model_data": 260
+      },
+      "model": "item/cardh4"
+    },{
+      "predicate": {
+        "custom_model_data": 261
+      },
+      "model": "item/cardh5"
+    },{
+      "predicate": {
+        "custom_model_data": 262
+      },
+      "model": "item/cardh6"
+    },{
+      "predicate": {
+        "custom_model_data": 263
+      },
+      "model": "item/cardh7"
+    },{
+      "predicate": {
+        "custom_model_data": 264
+      },
+      "model": "item/cardh8"
+    },{
+      "predicate": {
+        "custom_model_data": 265
+      },
+      "model": "item/cardh9"
+    },{
+      "predicate": {
+        "custom_model_data": 266
+      },
+      "model": "item/cardh10"
+    },{
+      "predicate": {
+        "custom_model_data": 270
+      },
+      "model": "item/cardha"
+    },{
+      "predicate": {
+        "custom_model_data": 514
+      },
+      "model": "item/cardd2"
+    },{
+      "predicate": {
+        "custom_model_data": 515
+      },
+      "model": "item/cardd3"
+    },{
+      "predicate": {
+        "custom_model_data": 516
+      },
+      "model": "item/cardd4"
+    },{
+      "predicate": {
+        "custom_model_data": 517
+      },
+      "model": "item/cardd5"
+    },{
+      "predicate": {
+        "custom_model_data": 518
+      },
+      "model": "item/cardd6"
+    },{
+      "predicate": {
+        "custom_model_data": 519
+      },
+      "model": "item/cardd7"
+    },{
+      "predicate": {
+        "custom_model_data": 520
+      },
+      "model": "item/cardd8"
+    },{
+      "predicate": {
+        "custom_model_data": 521
+      },
+      "model": "item/cardd9"
+    },{
+      "predicate": {
+        "custom_model_data": 522
+      },
+      "model": "item/cardd10"
+    },{
+      "predicate": {
+        "custom_model_data": 526
+      },
+      "model": "item/cardda"
+    },{
+      "predicate": {
+        "custom_model_data": 770
+      },
+      "model": "item/cardc2"
+    },{
+      "predicate": {
+        "custom_model_data": 771
+      },
+      "model": "item/cardc3"
+    },{
+      "predicate": {
+        "custom_model_data": 772
+      },
+      "model": "item/cardc4"
+    },{
+      "predicate": {
+        "custom_model_data": 773
+      },
+      "model": "item/cardc5"
+    },{
+      "predicate": {
+        "custom_model_data": 774
+      },
+      "model": "item/cardc6"
+    },{
+      "predicate": {
+        "custom_model_data": 775
+      },
+      "model": "item/cardc7"
+    },{
+      "predicate": {
+        "custom_model_data": 776
+      },
+      "model": "item/cardc8"
+    },{
+      "predicate": {
+        "custom_model_data": 777
+      },
+      "model": "item/cardc9"
+    },{
+      "predicate": {
+        "custom_model_data": 778
+      },
+      "model": "item/cardc10"
+    },{
+      "predicate": {
+        "custom_model_data": 782
+      },
+      "model": "item/cardca"
+    },{
+      "predicate": {
+        "custom_model_data": 1026
+      },
+      "model": "item/cards2"
+    },{
+      "predicate": {
+        "custom_model_data": 1027
+      },
+      "model": "item/cards3"
+    },{
+      "predicate": {
+        "custom_model_data": 1028
+      },
+      "model": "item/cards4"
+    },{
+      "predicate": {
+        "custom_model_data": 1029
+      },
+      "model": "item/cards5"
+    },{
+      "predicate": {
+        "custom_model_data": 1030
+      },
+      "model": "item/cards6"
+    },{
+      "predicate": {
+        "custom_model_data": 1031
+      },
+      "model": "item/cards7"
+    },{
+      "predicate": {
+        "custom_model_data": 1032
+      },
+      "model": "item/cards8"
+    },{
+      "predicate": {
+        "custom_model_data": 1033
+      },
+      "model": "item/cards9"
+    },{
+      "predicate": {
+        "custom_model_data": 1034
+      },
+      "model": "item/cards10"
+    },{
+      "predicate": {
+        "custom_model_data": 1038
+      },
+      "model": "item/cardsa"
+    }
+  ]
+}
