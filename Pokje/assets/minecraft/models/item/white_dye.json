@@ -1,0 +1,7 @@
+{
+  "parent": "item/chipbase",
+    "textures": {
+      "0": "item/chips/white",
+      "particle": "item/chips/white"
+    }
+}
