@@ -51,6 +51,21 @@
       "model": "item/cardh10"
     },{
       "predicate": {
+        "custom_model_data": 267
+      },
+      "model": "item/cardhj"
+    },{
+      "predicate": {
+        "custom_model_data": 268
+      },
+      "model": "item/cardhq"
+    },{
+      "predicate": {
+        "custom_model_data": 269
+      },
+      "model": "item/cardhk"
+    },{
+      "predicate": {
         "custom_model_data": 270
       },
       "model": "item/cardha"
@@ -99,6 +114,21 @@
         "custom_model_data": 522
       },
       "model": "item/cardd10"
+    },{
+      "predicate": {
+        "custom_model_data": 523
+      },
+      "model": "item/carddj"
+    },{
+      "predicate": {
+        "custom_model_data": 524
+      },
+      "model": "item/carddq"
+    },{
+      "predicate": {
+        "custom_model_data": 525
+      },
+      "model": "item/carddk"
     },{
       "predicate": {
         "custom_model_data": 526
@@ -151,6 +181,21 @@
       "model": "item/cardc10"
     },{
       "predicate": {
+        "custom_model_data": 779
+      },
+      "model": "item/cardcj"
+    },{
+      "predicate": {
+        "custom_model_data": 780
+      },
+      "model": "item/cardcq"
+    },{
+      "predicate": {
+        "custom_model_data": 781
+      },
+      "model": "item/cardck"
+    },{
+      "predicate": {
         "custom_model_data": 782
       },
       "model": "item/cardca"
@@ -201,9 +246,29 @@
       "model": "item/cards10"
     },{
       "predicate": {
+        "custom_model_data": 1035
+      },
+      "model": "item/cardsj"
+    },{
+      "predicate": {
+        "custom_model_data": 1036
+      },
+      "model": "item/cardsq"
+    },{
+      "predicate": {
+        "custom_model_data": 1037
+      },
+      "model": "item/cardsk"
+    },{
+      "predicate": {
         "custom_model_data": 1038
       },
       "model": "item/cardsa"
+    },{
+      "predicate": {
+        "custom_model_data": 5000
+      },
+      "model": "item/styled_text"
     }
   ]
 }
