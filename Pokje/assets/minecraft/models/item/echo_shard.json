@@ -4,15 +4,17 @@
     "layer0": "minecraft:item/echo_shard"
   },
   "overrides": [
-    {"predicates": {
-      "custom_model_data": 1
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/parts/chairarm"
     },
-    "model": "item/parts/chairarm"
-    },
-    {"predicates": {
-      "custom_model_data": 2
-    },
-    "model": "item/parts/chairarm2"
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/parts/chairarm2"
     }
 
   ]
