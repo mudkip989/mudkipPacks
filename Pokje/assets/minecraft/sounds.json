@@ -190,5 +190,45 @@
 			"block/note_block/xylobone_1"
 		],
 		"subtitle": "subtitles.block.note_block.note"
+	},"block.portal.trigger_1": {
+		"sounds": [
+			"block/note/extra_note_sounds/block.portal.trigger_1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"block.portal.trigger_-1": {
+		"sounds": [
+			"block/note/extra_note_sounds/block.portal.trigger_-1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"block.sand.break_1": {
+		"sounds": [
+			"block/note/extra_note_sounds/block.sand.break_1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"block.sand.break_-1": {
+		"sounds": [
+			"block/note/extra_note_sounds/block.sand.break_-1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"entity.experience_orb.pickup_1": {
+		"sounds": [
+			"block/note/extra_note_sounds/entity.experience_orb.pickup_1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"entity.experience_orb.pickup_-1": {
+		"sounds": [
+			"block/note/extra_note_sounds/entity.experience_orb.pickup_-1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"entity.firework.blast_far_1": {
+		"sounds": [
+			"block/note/extra_note_sounds/entity.firework.blast_far_1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
+	},"entity.firework.blast_far_-1": {
+		"sounds": [
+			"block/note/extra_note_sounds/entity.firework.blast_far_-1"
+		],
+		"subtitle": "subtitles.block.note_block.note"
 	}
 }
