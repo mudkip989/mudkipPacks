@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/microphone",
-		"particle": "item/microphone"
+		"0": "item/parts/microphone",
+		"particle": "item/parts/microphone"
 	},
 	"elements": [
 		{
