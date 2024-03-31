@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"tintindex": 1,
 	"textures": {
 		"0": "item/parts/glass_overlay",
 		"1": "item/parts/glass",
