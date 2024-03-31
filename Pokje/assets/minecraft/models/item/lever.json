@@ -21,6 +21,12 @@
         "custom_model_data": 3
       },
       "model": "item/parts/kickdrum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/parts/cymboll"
     }
   ]
 }
