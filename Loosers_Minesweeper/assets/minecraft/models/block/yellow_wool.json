@@ -1,0 +1,9 @@
+{
+  "parent": "block/ctm",
+  "textures": {
+      "all": "block/yellow_wool",
+      "light": "block/yellow_wool_light",
+      "sides": "block/yellow_wool_sides",
+      "base": "block/yellow_wool_borderless"
+  }
+}
