@@ -1,0 +1,141 @@
+{
+    "targets": [
+        "water",
+        "translucent",
+        "itemEntity",
+        "particles",
+        "clouds",
+        "weather",
+        "final",
+        "swap",
+        "previous",
+        "splitim",
+        { "name": "timer", "width": 2, "height": 1 }
+    ],
+    "passes": [
+        {
+            "name": "transparency",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "auxtargets": [
+                {
+                    "name": "DiffuseDepthSampler",
+                    "id": "minecraft:main:depth"
+                },
+                {
+                    "name": "TranslucentSampler",
+                    "id": "translucent"
+                },
+                {
+                    "name": "TranslucentDepthSampler",
+                    "id": "translucent:depth"
+                },
+                {
+                    "name": "ItemEntitySampler",
+                    "id": "itemEntity"
+                },
+                {
+                    "name": "ItemEntityDepthSampler",
+                    "id": "itemEntity:depth"
+                },
+                {
+                    "name": "ParticlesSampler",
+                    "id": "particles"
+                },
+                {
+                    "name": "ParticlesDepthSampler",
+                    "id": "particles:depth"
+                },
+                {
+                    "name": "CloudsSampler",
+                    "id": "clouds"
+                },
+                {
+                    "name": "CloudsDepthSampler",
+                    "id": "clouds:depth"
+                },
+                {
+                    "name": "WeatherSampler",
+                    "id": "weather"
+                },
+                {
+                    "name": "WeatherDepthSampler",
+                    "id": "weather:depth"
+                }
+            ]
+        
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "splitim"
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "final"
+        },
+        {
+            "name": "sobel",
+            "intarget": "final",
+            "outtarget": "swap"
+        },
+        {
+            "name": "mudkip/overlay",
+            "intarget": "swap",
+            "outtarget": "final",
+            "auxtargets":[
+                { "name": "ImgSampler", "id": "splitim"}
+            ],
+            "uniforms":[
+                { "name": "Alphra",     "type": "float",     "count": 1,    "values": [ 0.6 ]}
+            ]
+        },
+        {
+            "name": "blit",
+            "intarget": "final",
+            "outtarget": "swap"
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "final"
+        },
+        {
+            "name": "mudkip/mblur",
+            "intarget": "final",
+            "outtarget": "swap",
+            "auxtargets":[
+                { "name": "PrevSampler", "id": "previous"}
+            ],
+            "uniforms":[
+                { "name": "Fade",     "type": "float",     "count": 1,    "values": [ 0.93 ]}
+            ]
+        },
+        {
+            "name": "mudkip/scanline",
+            "intarget": "swap",
+            "outtarget": "final"
+            
+        },
+        {
+            "name": "blur",
+            "intarget": "swap",
+            "outtarget": "previous",
+            "uniforms": [
+                { "name": "BlurDir",     "type": "float",     "count": 2,  "values": [ 1.0, 0.0 ] },
+                { "name": "Radius",      "type": "float",     "count": 1,  "values": [ 3.0 ] }
+            ]
+        },
+        {
+            "name": "scan_pincushion",
+            "intarget": "final",
+            "outtarget": "swap"
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}
