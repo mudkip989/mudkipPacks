@@ -113,12 +113,6 @@
             ]
         },
         {
-            "name": "mudkip/scanline",
-            "intarget": "swap",
-            "outtarget": "final"
-            
-        },
-        {
             "name": "blur",
             "intarget": "swap",
             "outtarget": "previous",
@@ -126,6 +120,31 @@
                 { "name": "BlurDir",     "type": "float",     "count": 2,  "values": [ 1.0, 0.0 ] },
                 { "name": "Radius",      "type": "float",     "count": 1,  "values": [ 3.0 ] }
             ]
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "final"
+        },
+        {
+            "name": "bits",
+            "intarget": "final",
+            "outtarget": "swap",
+            "uniforms": [
+                {
+                    "name": "Resolution",
+                    "values": [ 16.0 ]
+                },
+                {
+                    "name": "MosaicSize",
+                    "values": [ 4.0 ]
+                }
+            ]
+        },        {
+            "name": "mudkip/scanline",
+            "intarget": "swap",
+            "outtarget": "final"
+            
         },
         {
             "name": "scan_pincushion",
